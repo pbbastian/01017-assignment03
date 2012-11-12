@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "document.tex",
+			"settings":
+			{
+				"buffer_size": 1809,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "a.tex",
+			"settings":
+			{
+				"buffer_size": 2441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/PeterBay/Downloads/tikz_tableau_eksempler.tex",
+			"settings":
+			{
+				"buffer_size": 4736,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 59.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Discover Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"hask",
+				"SublimeHaskell: Insert type"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Insert type"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 132.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/PeterBay/Downloads/tikz_tableau_eksempler.tex",
+		"/C/Users/PeterBay/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/PeterBay/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/PeterBay/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/e.tex",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/d.tex",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/c.tex",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/b.tex",
+		"/C/Users/PeterBay/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/a.tex",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/document.log",
+		"/C/Users/PeterBay/AppData/Roaming/Sublime Text 2/Packages/User/LaTeX.sublime-build",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/01017-assignment03.sublime-project",
+		"/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03/.gitignore",
+		"/C/Users/PeterBay/Downloads/Backup/Backup/Documents/Stille Matematik/Hjemmeopgave 1/forside.tex",
+		"/C/Users/PeterBay/Downloads/Backup/Backup/Documents/Stille Matematik/Hjemmeopgave 1/document.tex",
+		"/C/Users/PeterBay/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/PeterBay/Documents/Haskell/PFactorial.hs",
+		"/C/Users/PeterBay/AppData/Roaming/Sublime Text 2/Packages/User/Haskell.sublime-settings",
+		"/C/Users/PeterBay/Documents/Haskell/StaticTest.hs",
+		"/C/Users/PeterBay/.cabal/config",
+		"/C/Users/PeterBay/Documents/Haskell/QuickSort.hs",
+		"/C/Users/PeterBay/Downloads/Javafile/NumberCheck.java",
+		"/C/Users/PeterBay/Downloads/Javafile/SaveDivMult.java",
+		"/C/Users/PeterBay/Downloads/cm-unicode-0.7.0-ttf.tar/cm-unicode-0.7.0/README",
+		"/C/Users/PeterBay/Downloads/eksempel10.tex",
+		"/C/Users/PeterBay/Downloads/adv-opgave-1.tex"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\",\n",
+			"\", \"",
+			"document.",
+			"\\n",
+			"sort "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"\", \"",
+			"qsort ",
+			"qsort"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "document.tex",
+					"settings":
+					{
+						"buffer_size": 1809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1257,
+								1257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "a.tex",
+					"settings":
+					{
+						"buffer_size": 2441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2357,
+								2357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 549.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/PeterBay/Downloads/tikz_tableau_eksempler.tex",
+					"settings":
+					{
+						"buffer_size": 4736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3269,
+								3269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1941.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 147.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true
+}

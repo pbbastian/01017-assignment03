@@ -1,0 +1,74 @@
+%!TEX root = document.tex
+\section*{Opgave A}
+\begin{enumerate}
+  \item
+  Jeg benytter følgende propositionsvariable:
+  \begin{itemize}
+    \item $P_r$: P er ridder
+    \item $Q_r$: Q er ridder
+  \end{itemize}
+  Hvis P ikke er en ridder må P være en bonde, da der kun findes to typer af mennesker på øen. Altså kan jeg udtrykke at P er en bonde ved $\lnot P_r$. Ligeledes kan jeg udtrykke at Q er en bonde ved $\lnot Q_r$.
+
+  For at bestemme hvad P og Q er, ser jeg først på Ps svar på spørgsmålet. Man må kunne udtrykke at mindst én af dem er en bonde ved:
+  \begin{equation}
+    \label{A1:udsagn}
+    \lnot P_r \lor \lnot Q_r
+  \end{equation}
+  Hvis \eqref{A1:udsagn} er sandt må $P_r$ være sandt, da P i så fald har talt sandt og derved ikke kan være en bonde. Hvis \eqref{A1:udsagn} er falsk må $P_r$ være falsk, da P i så fald har løjet og derved ikke kan være en ridder.
+
+  Ligeledes må \eqref{A1:udsagn} være falsk hvis $P_r$ er falsk, og sandt hvis $P_r$ er sand.
+
+  Altså må der være tale om en biimplikation, og situationen kan beskrives ved:
+  \begin{equation}
+    \label{A1:situation}
+    P_r \leftrightarrow \lnot P_r \lor \lnot Q_r
+  \end{equation}
+
+  Jeg kan undersøge hvilke værdier der vil gøre \eqref{A1:situation} sand vha. tableau-metoden:
+  \begin{equation*}
+    \begin{tikzpicture}[level distance=8mm,sibling distance=50mm]
+      \node {$P_r \leftrightarrow \lnot P_r \lor \lnot Q_r : \T\ \checkmark$}
+      child {
+        node {$P_r : \T$}
+        child {
+          node {$\lnot P_r \lor \lnot Q_r : \T\ \checkmark$}
+          child {
+            node {$\lnot P_r : \T\ \checkmark$}
+            child {
+              node {$P_r : \F$}
+              \closed
+            }
+          }
+          child {
+            node {$\lnot Q_r : \T\ \checkmark$}
+            child {
+              node {$Q_r : \F$}
+              \open
+            }
+          }
+        }
+      }
+      child {
+        node {$P_r : \F$}
+        child {
+          node {$\lnot P_r \lor \lnot Q_r : \F\ \checkmark$}
+          child {
+            node {$\lnot P_r : \F\ \checkmark$}
+            child {
+              node {$\lnot Q_r : \F$}
+              child {
+                node {$P_r : \T$}
+                \closed
+              }
+            }
+          }
+        }
+      };
+    \end{tikzpicture}
+  \end{equation*}
+
+  Det ses at der kun en én åben, mættet gren. Jeg kan aflæse at P er en ridder og Q er en bonde.
+
+  \item
+  \item
+\end{enumerate}

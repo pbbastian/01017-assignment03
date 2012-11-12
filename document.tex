@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper,danish]{article}
+\usepackage[utf8]{inputenc} % Skal passe til editorens indstillinger
+\usepackage[danish]{babel} % danske overskrifter
+\usepackage[T1]{fontenc} % fonte (output)
+\usepackage{lmodern} % vektor fonte
+\usepackage{graphicx} % indsættelse af billeder
+\usepackage{mathtools} % matematik - understøtter muligheden for at bruge \eqref{}
+\usepackage[plainpages=false,pdfpagelabels,pageanchor=false]{hyperref} % aktive links
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+% \usepackage{pstool}
+\hypersetup{
+  pdfauthor={Peter Bay Bastian (s113119)},
+  pdftitle={Hjemmeopgave 3},
+  pdfsubject={01017 Diskret matematik}}
+\usepackage{epstopdf}
+\usepackage{memhfixc}% rettelser til hyperref
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{amsfonts} 
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{ae}
+\usepackage{amssymb}
+\usepackage{tikz}
+
+\newcommand{\closed}{child[white, level distance=5mm] {node[black] {$\times$}}}
+\newcommand{\open}{child[white, level distance=5mm] {node[black] {$\bigcirc$}}}
+\newcommand{\F}{\mathtt{F}}
+\newcommand{\T}{\mathtt{T}}
+
+\pagestyle{fancy}
+\renewcommand{\headheight}{25.27927pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{\today\\Peter Bay Bastian (s113119)}
+% \fancyhead[C]{}
+\fancyhead[R]{Hjemmeopgave 3\\02101 Diskret matematik E12}
+
+\title{Hjemmeopgave 3}
+\author{Peter Bay Bastian (s113116)}
+
+\begin{document}
+	%\maketitle
+	\noindent
+	Opgaven er lavet i samarbejde med Kim Bo Rasmussen (s070808) og Mikkel Møller Nielsen Davidsen (s113116).
+
+	\input{a}
+	\input{b}
+	\input{c}
+	\input{d}
+	\input{e}
+\end{document}
