@@ -3,7 +3,7 @@
 	[
 		{
 			"path": "/C/Users/PeterBay/GitHub/01017/Assignment 3/01017-assignment03",
-			"file_exclude_patterns": ["*.aux", "*.bbl", "*.blg", "*.dvi", "*.fdb_latexmk", "*.glg", "*.glo", "*.gls", "*.idx", "*.ilg", "*.ind", "*.ist", "*.lof", "*.log", "*.lot", "*.nav", "*.nlo", "*.out", "*.pdfsync", "*.ps", "*.snm", "*.synctex.gz", "*.toc", "*.vrb", "*.maf", "*.mtc", "*.mtc0", "*.fls", ".gitignore", "*.sublime-workspace"]
+			"file_exclude_patterns": ["*.aux", "*.bbl", "*.blg", "*.dvi", "*.fdb_latexmk", "*.glg", "*.glo", "*.gls", "*.idx", "*.ilg", "*.ind", "*.ist", "*.lof", "*.log", "*.lot", "*.nav", "*.nlo", "*.out", "*.pdfsync", "*.ps", "*.snm", "*.synctex.gz", "*.toc", "*.vrb", "*.maf", "*.mtc", "*.mtc0", "*.fls", ".gitignore", "*.sublime-workspace", "*.synctex.gz(busy)", "*.pdf"]
 		}
 	]
 }
