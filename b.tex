@@ -1,2 +1,106 @@
 %!TEX root = document.tex
 \section*{Opgave B}
+
+\subsection*{(a)}
+Jeg ser på følgende formel:
+\begin{equation}
+  \left( \left( p \rightarrow r \right) \lor \left( q \rightarrow r \right) \right) \rightarrow \left( \left( p \lor q \right) \rightarrow r \right)
+\end{equation}
+Jeg vil benytte tableau-metoden til at afgøre om formlen er gyldig:
+\begin{equation*}
+  \begin{tikzpicture}[level distance=8mm,sibling distance=50mm]\tikzstyle{level 2}=[sibling distance=25mm]
+    \node{$\left( \left( p \rightarrow r \right) \lor \left( q \rightarrow r \right) \right) \rightarrow \left( \left( p \lor q \right) \rightarrow r \right) : \T\ \checkmark$}
+    child {
+      node {$\left( p \rightarrow r \right) \lor \left( q \rightarrow r \right) : \F\ \checkmark$}
+      child {
+        node {$p \rightarrow r : \F\ \checkmark$}
+        child {
+          node {$q \rightarrow r : \F\ \checkmark$}
+          child {
+            node {$p : \T$}
+            child {
+              node {$r : \F$}
+              child {
+                node {$q : \T$}
+                child {
+                  node {$r : \F$}
+                  \open
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    child {
+      node {$\left( p \lor q \right) \rightarrow r : \T\ \checkmark$}
+      child {
+        node {$p \lor q : \F\ \checkmark$}
+        child {
+          node {$p : \F$}
+          child {
+            node {$q : \F$}
+            \open
+          }
+        }
+      }
+      child {
+        node {$r : \T$}
+        \open
+      }
+    };
+  \end{tikzpicture}
+\end{equation*}
+Det ses at der ikke er nogle lukkede grene og derved ikke nogen måde hvorpå formlen kan blive falsk. Altså er formlen gyldig.
+
+\subsection*{(b)}
+Jeg ser på følgende formel:
+\begin{equation}
+  p \rightarrow \left( \left( q \rightarrow r \right) \rightarrow \left( \left( p \rightarrow q \right) \rightarrow \left( p \rightarrow r \right) \right) \right)
+\end{equation}
+Jeg vil benytte tableau-metoden til at afgøre om formlen er gyldig:
+\begin{equation*}
+  \begin{tikzpicture}[level distance=8mm,sibling distance=50mm]\tikzstyle{level 2}=[sibling distance=25mm]
+    \node{$p \rightarrow \left( \left( q \rightarrow r \right) \rightarrow \left( \left( p \rightarrow q \right) \rightarrow \left( p \rightarrow r \right) \right) \right) : \F\ \checkmark$}
+    child {
+      node {$p : \T$}
+      child {
+        node {$\left( q \rightarrow r \right) \rightarrow \left( \left( p \rightarrow q \right) \rightarrow \left( p \rightarrow r \right) \right) : \F\ \checkmark$}
+        child {
+          node {$q \rightarrow r : \T\ \checkmark$}
+          child {
+            node {$\left( p \rightarrow q \right) \rightarrow \left( p \rightarrow r \right) : \F\ \checkmark$}
+            child {
+              node {$p \rightarrow q : \T\ \checkmark$}
+              child {
+                node {$p \rightarrow r : \F\ \checkmark$}
+                child {
+                  node {$p : \T$}
+                  child {
+                    node {$r : \F$}
+                    child {
+                      node {$q : \F$}
+                      child {
+                        node {$p : \F$}
+                        \closed
+                      }
+                      child {
+                        node {$q : \T$}
+                        \closed
+                      }
+                    }
+                    child {
+                      node {$r : \T$}
+                      \closed
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    };
+  \end{tikzpicture}
+\end{equation*}
+Det ses at det kun er lukkede grene og derved ingen måde hvorpå formlen kan blive falsk. Altså er formlen gyldig.
