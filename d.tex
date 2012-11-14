@@ -1,2 +1,57 @@
 %!TEX root = document.tex
 \section*{Opgave D}
+Jeg benytter følgende propositionsvariable:
+\begin{itemize}
+  \item $R_t$: René flytter sit tårn
+  \item $P_d$: Per flytter sin dronning
+  \item $P_l$: Per flytter sin løber
+  \item $R_s$: René smadrer skakbrættet
+\end{itemize}
+Dem vil jeg benytte til at omskrive de 4 sætninger til logiske udtryk. Jeg ser først på den første sætning, som er:
+\begin{quote}
+  \emph{René vil kun flytte sin tårn, hvis Per flytter sin dronning.}
+\end{quote}
+Altså må der være tale om en implikation. Det kan udtrykkes ved:
+\begin{equation}
+  P_d \rightarrow R_t
+\end{equation}
+Anden sætning er:
+\begin{quote}
+  \emph{Hvis Per flytter sin løber, vil René smadre skakbrættet.}
+\end{quote}
+Igen må der være tale om en implikation. Det kan udtrykkes ved:
+\begin{equation}
+  P_l \rightarrow R_s
+\end{equation}
+Tredje sætning er:
+\begin{quote}
+  \emph{Det er ikke tilfældet, at Per vil flytte sin dronning og ikke flytte sin løber.}
+\end{quote}
+Der må være tale om en negering af en implikation. Det kan udtrykkes ved:
+\begin{equation}
+  \lnot \left( P_d \rightarrow \lnot P_l \right)
+\end{equation}
+Fjerde sætning er:
+\begin{quote}
+  \emph{Hvis Per flytter sin dronning, vil René flytte sit tårn og smadre skakbrættet.}
+\end{quote}
+Der må være tale om to ting, der sker hvis én ting sker. Det kan udtrykkes ved:
+\begin{equation}
+  \label{D4}
+  P_d \rightarrow R_t \land R_s
+\end{equation}
+Samles de fire sætninger på samme måde som givet i opgaven fås:
+\begin{equation}
+  \begin{split}
+    & P_d \rightarrow R_t\\
+    & P_l \rightarrow R_s\\
+    & \lnot \left( P_d \rightarrow \lnot P_l \right)\\
+    \hline
+    & P_d \rightarrow R_t \land R_s
+  \end{split}
+\end{equation}
+Den logiske konsekvens kan opdeles i følgende to dele:
+\begin{equation}
+  P_d \rightarrow R_t \quad,\quad P_d \rightarrow R_s
+\end{equation}
+Den første del opfyldes af den første sætning, men den anden del kan ikke konkluderes ud fra de tre ligninger. Altså må slutningen være falsk.

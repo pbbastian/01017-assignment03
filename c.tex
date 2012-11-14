@@ -1,2 +1,31 @@
 %!TEX root = document.tex
 \section*{Opgave C}
+Jeg vil bevise følgende lemma gælder:
+\begin{description}
+  \item[Lemma 1] Formlerne A og B er logisk ækvivalente hvis og kun hvis formlen $A \leftrightarrow B$ er gyldig.
+\end{description}
+Da lemmaet siger \emph{hvis og kun hvis} må det være det samme som at følgende to sætninger gælder:
+\begin{description}
+  \item[Sætning 1] Formlerne A og B er logisk ækvivalente hvis formlen $A \leftrightarrow B$ er gyldig.
+  \item[Sætning 2] Formlen $A \leftrightarrow B$ er gyldig hvis formlerne A og B er logisk ækvivalente.
+\end{description}
+Jeg starter med at vise at sætning 1 gælder, hvor det antages at $A \leftrightarrow B$ er gyldig. Jeg kan opstille en sandhedstabel for $A \leftrightarrow B$:
+  \begin{center}
+    \begin{tabular}{cc|c}
+    \textbf{$A$} & \textbf{$B$} & \textbf{$A \leftrightarrow B$} \\
+
+    \hline
+
+    $\T$ & $\T$ & $\T$ \\
+    $\T$ & $\F$ & $\F$ \\
+    $\F$ & $\T$ & $\F$ \\
+    $\F$ & $\F$ & $\T$
+    \end{tabular}
+  \end{center}
+Det ses at hvis $A \leftrightarrow B$ skal være gyldig, er der kun to mulige tilfælde: Både $A$ og $B$ er sande eller eller både $A$ og $B$ er falske. Det vil sige at de skal have samme værdi for at gøre udtrykket gyldigt, hvilket jo betyder at de er logisk ækvivalente. Hermed er sætning 1 vist.\\
+
+\noindent
+Jeg vil nu se på sætning 2, hvor det antages at formlerne A og B er logisk ækvivalente. Givet det er der altså to mulige tilfælde: Både $A$ og $B$ er sande eller eller både $A$ og $B$ er falske. Hvis de værdier benyttes i $A \leftrightarrow B$ vil resultatet (jf. sandhedstabellen fra før) altid være sandt. Det må betyde at $A \leftrightarrow B$ er gyldigt, da der for de mulige værdier af $A$ og $B$ ikke er et tilfælde hvor $A \leftrightarrow B$ er falsk. Hermed er sætning 2 vist.\\
+
+\noindent
+Eftersom både sætning 1 og sætning 2 gælder, må lemmaet også gælde. Hermed er lemma 1 vist.

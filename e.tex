@@ -1,2 +1,52 @@
 %!TEX root = document.tex
 \section*{Opgave E}
+
+\subsection*{(1)}
+Jeg ser på følgende formel:
+\begin{equation}
+  \exists x \left( x = x^2 \rightarrow x < \boldsymbol{0} \right)
+\end{equation}
+Oversat til dansk: Der findes et reelt tal $x$, der er mindre end 0 hvis det er lig sig selv kvadreret.\\
+
+\noindent
+Formlen gælder ikke, da tallene 0 og 1 er lig sig selv kvadreret, men ikke er mindre end 0.
+
+\subsection*{(2)}
+Jeg ser på følgende formel:
+\begin{equation}
+  \forall x \left( x > \boldsymbol{0} \rightarrow x^2 > x \right)
+\end{equation}
+For ethvert reelt tal $x$ større end 0, gælder at $x^2$ er større end $x$.\\
+
+\noindent
+Formlen gælder ikke, da $1^2>1$ ikke gælder.
+
+\subsection*{(3)}
+Jeg ser på følgende formel:
+\begin{equation}
+  \forall x \left( x = \boldsymbol{0} \lor \lnot \left( x + x = x \right) \right)
+\end{equation}
+Ethvert reelt tal $x$ er lig 0 eller forskellig fra $x+x$.\\
+
+\noindent
+Da tallet 0 er additiv identitet for de reelle tal, vil det kun være for $x=0$ at $x+x=x$ gælder, hvilket netop er det der er udtrykt i formlen. Altså gælder formlen.
+
+\subsection*{(4)}
+Jeg ser på følgende formel:
+\begin{equation}
+  \exists x \forall y \left( x > y \right)
+\end{equation}
+For ethvert reelt tal $y$ findes et reelt tal $x$ der er større end $y$.\\
+
+\noindent
+Da der ikke er en grænse på de reelle tal, vil der altid findes et større tal.
+
+\subsection*{(5)}
+Jeg ser på følgende formel:
+\begin{equation}
+  \forall x \forall y \left( x > y \rightarrow \exists z \left( x > z \land z > y \right) \right)
+\end{equation}
+For ethvert reelt talpar $x$ og $y$ hvor $x$ er større end $y$, findes der et $z$ der er mindre end $x$ og større end $y$.\\
+
+\noindent
+Da der for de reelle tal ikke er nogen grænse for hvor præcist (dvs. antal decimaler) et reelt tal kan være, vil der altid være mulighed for at finde et tal der ligger mellem to tal. Det vil blot være et spørgsmål om at evt. vælge et tal med større præcision end de to det skal ligge imellem. Altså gælder formlen.
